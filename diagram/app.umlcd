@@ -1282,11 +1282,11 @@
         "width": 225
       },
       "swagger": false,
-      "tableName": "Linha_Negócio_Custo",
+      "tableName": "Linha_Negocio_Custo",
       "tableScheme": null,
       "type": "uml.Class",
       "usePhysicalNames": false,
-      "z": 33
+      "z": 37
     },
     {
       "angle": 0,
@@ -4316,33 +4316,37 @@
         "NomeFuncionario:java.lang.String",
         "matricula:java.lang.String",
         "Email:java.lang.String",
-        "Senha:java.lang.String"
+        "Senha:java.lang.String",
+        "Confirmarsenha:java.lang.String",
+        "cpf:java.lang.String",
+        "centro_custo:java.lang.String",
+        "LinhaNegocio:java.lang.String"
       ],
       "attrs": {
         ".uml-class-attrs-rect": {
           "fill": "#F0F0F0",
           "font-family": "\u0027Fira Sans\u0027, sans-serif",
-          "height": 120,
+          "height": 200,
           "stroke": "#C2C2C2",
           "transform": "translate(0,40)"
         },
         ".uml-class-attrs-text": {
           "font-family": "\u0027Fira Sans\u0027, sans-serif",
           "font-size": 11,
-          "text": "* id\nNomeFuncionario\nmatricula\nEmail\nSenha\n"
+          "text": "* id\nNomeFuncionario\nmatricula\nEmail\nSenha\nConfirmarsenha\ncpf\ncentro_custo\nLinhaNegocio\n"
         },
         ".uml-class-attrs-value": {
           "font-family": "\u0027Fira Sans\u0027, sans-serif",
           "font-size": 11,
           "ref-x": 174,
-          "text": "Texto\nTexto\nTexto\nTexto\nTexto\n"
+          "text": "Texto\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\n"
         },
         ".uml-class-methods-rect": {
           "fill": "#F0F0F0",
           "height": 20,
           "stroke": "#C2C2C2",
           "stroke-width": 1,
-          "transform": "translate(0,160)"
+          "transform": "translate(0,240)"
         },
         ".uml-class-methods-text": {
           "font-family": "\u0027Fira Sans\u0027, sans-serif",
@@ -4542,6 +4546,150 @@
           "isIndex": false,
           "useOuterJoin": false,
           "regionAWS": ""
+        },
+        {
+          "name": "Confirmarsenha",
+          "type": "java.lang.String",
+          "dbName": "Confirmarsenha",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Confirmarsenha",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": ""
+        },
+        {
+          "name": "cpf",
+          "type": "java.lang.String",
+          "dbName": "cpf",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Cpf",
+          "mask": "999.999.999-99;0",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": ""
+        },
+        {
+          "name": "centro_custo",
+          "type": "java.lang.String",
+          "dbName": "centro_custo",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Centro Custo",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": ""
+        },
+        {
+          "name": "LinhaNegocio",
+          "type": "java.lang.String",
+          "dbName": "LinhaNegocio",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Linha Negocio",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": ""
         }
       ],
       "generateView": "Auto",
@@ -4560,7 +4708,7 @@
       "role": "Class",
       "runtimeClass": "cronos.widgets.joint.uml.Class",
       "size": {
-        "height": 150,
+        "height": 190,
         "width": 213
       },
       "swagger": false,
@@ -4568,7 +4716,7 @@
       "tableScheme": null,
       "type": "uml.Class",
       "usePhysicalNames": false,
-      "z": 30
+      "z": 36
     },
     {
       "associationType": "Association",
@@ -5192,94 +5340,10 @@
       ],
       "groupPositions": [
         {
-          "idCell": "fabe0aea-c05d-44a4-a87c-2e2c0a97e994",
+          "idCell": "56d9e678-741d-41e6-9b24-bccc58de1598",
           "position": {
-            "x": 382,
-            "y": 36
-          }
-        },
-        {
-          "idCell": "dc3c81fe-9b1a-48a4-8dac-0667495e470d",
-          "position": {
-            "x": 1300,
-            "y": 104
-          }
-        },
-        {
-          "idCell": "2b76b50a-bb57-4354-a653-b71b1450ebff",
-          "position": {
-            "x": 144,
-            "y": 530
-          }
-        },
-        {
-          "idCell": "2016ad54-a0f9-4337-ad10-694a48f0435c",
-          "position": {
-            "x": 628,
-            "y": -6
-          }
-        },
-        {
-          "idCell": "e35a650f-29ee-4683-8c1c-5cc61a955ddf",
-          "position": {
-            "x": 668,
-            "y": 594
-          }
-        },
-        {
-          "idCell": "d92238a3-a37d-4cc6-a543-d0687dc207cd",
-          "position": {
-            "x": 100,
-            "y": 34
-          }
-        },
-        {
-          "idCell": "53b97115-f8a3-4221-9ce6-bad2672b8bd5",
-          "position": {
-            "x": 418,
-            "y": 594
-          }
-        },
-        {
-          "idCell": "8a0ebe59-8211-4adb-a2ea-b0b5547b64e9",
-          "position": {
-            "x": 1358,
-            "y": 322
-          }
-        },
-        {
-          "idCell": "4cbe47fe-4f4b-43e9-960b-4b5cc2633aef",
-          "position": {
-            "x": 404,
-            "y": 342
-          }
-        },
-        {
-          "idCell": "36b875ac-204a-4346-82e4-aabbd2c6b202",
-          "position": {
-            "x": 940,
-            "y": 594
-          }
-        },
-        {
-          "idCell": "0e6ddcb2-dad4-4ff5-a143-d5a943c9d9e1",
-          "position": {
-            "x": 1366,
-            "y": 656
-          }
-        },
-        {
-          "idCell": "dcc00b32-aa33-47bd-bc4d-91da88f25cbc",
-          "position": {
-            "x": 656,
-            "y": 312
-          }
-        },
-        {
-          "idCell": "5d4848b9-b809-4976-a2da-a9f7e93ef9e0",
-          "position": {
-            "x": 1520,
-            "y": 334
+            "x": 1106,
+            "y": 406
           }
         },
         {
@@ -5290,6 +5354,20 @@
           }
         },
         {
+          "idCell": "2b76b50a-bb57-4354-a653-b71b1450ebff",
+          "position": {
+            "x": 144,
+            "y": 530
+          }
+        },
+        {
+          "idCell": "36b875ac-204a-4346-82e4-aabbd2c6b202",
+          "position": {
+            "x": 940,
+            "y": 594
+          }
+        },
+        {
           "idCell": "b194a533-61d6-4661-b9da-ff80ce2835f9",
           "position": {
             "x": 70,
@@ -5297,10 +5375,80 @@
           }
         },
         {
-          "idCell": "56d9e678-741d-41e6-9b24-bccc58de1598",
+          "idCell": "4cbe47fe-4f4b-43e9-960b-4b5cc2633aef",
           "position": {
-            "x": 1106,
-            "y": 406
+            "x": 404,
+            "y": 342
+          }
+        },
+        {
+          "idCell": "5d4848b9-b809-4976-a2da-a9f7e93ef9e0",
+          "position": {
+            "x": 1520,
+            "y": 334
+          }
+        },
+        {
+          "idCell": "2016ad54-a0f9-4337-ad10-694a48f0435c",
+          "position": {
+            "x": 628,
+            "y": -6
+          }
+        },
+        {
+          "idCell": "53b97115-f8a3-4221-9ce6-bad2672b8bd5",
+          "position": {
+            "x": 418,
+            "y": 594
+          }
+        },
+        {
+          "idCell": "dcc00b32-aa33-47bd-bc4d-91da88f25cbc",
+          "position": {
+            "x": 656,
+            "y": 312
+          }
+        },
+        {
+          "idCell": "fabe0aea-c05d-44a4-a87c-2e2c0a97e994",
+          "position": {
+            "x": 382,
+            "y": 36
+          }
+        },
+        {
+          "idCell": "d92238a3-a37d-4cc6-a543-d0687dc207cd",
+          "position": {
+            "x": 100,
+            "y": 34
+          }
+        },
+        {
+          "idCell": "8a0ebe59-8211-4adb-a2ea-b0b5547b64e9",
+          "position": {
+            "x": 1358,
+            "y": 322
+          }
+        },
+        {
+          "idCell": "0e6ddcb2-dad4-4ff5-a143-d5a943c9d9e1",
+          "position": {
+            "x": 1366,
+            "y": 656
+          }
+        },
+        {
+          "idCell": "e35a650f-29ee-4683-8c1c-5cc61a955ddf",
+          "position": {
+            "x": 668,
+            "y": 594
+          }
+        },
+        {
+          "idCell": "dc3c81fe-9b1a-48a4-8dac-0667495e470d",
+          "position": {
+            "x": 1300,
+            "y": 104
           }
         }
       ]

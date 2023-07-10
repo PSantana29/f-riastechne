@@ -68,6 +68,38 @@ public class colaborador implements Serializable {
 
 
     /**
+    * @generated
+    */
+    @Column(name = "Confirmarsenha", nullable = true, unique = false, insertable=true, updatable=true)
+        
+        private java.lang.String confirmarsenha;
+
+
+    /**
+    * @generated
+    */
+    @Column(name = "cpf", nullable = true, unique = false, insertable=true, updatable=true)
+        
+        private java.lang.String cpf;
+
+
+    /**
+    * @generated
+    */
+    @Column(name = "centro_custo", nullable = true, unique = false, insertable=true, updatable=true)
+        
+        private java.lang.String centro_custo;
+
+
+    /**
+    * @generated
+    */
+    @Column(name = "LinhaNegocio", nullable = true, unique = false, insertable=true, updatable=true)
+        
+        private java.lang.String linhaNegocio;
+
+
+    /**
     * Construtor
     * @generated
     */
@@ -162,6 +194,78 @@ public class colaborador implements Serializable {
     */
     public colaborador setSenha(java.lang.String senha) {
         this.senha = senha;
+        return this;
+    }
+    /**
+    * Obtém confirmarsenha
+    * return confirmarsenha
+    * @generated
+    */
+    public java.lang.String getConfirmarsenha() {
+        return this.confirmarsenha;
+    }
+
+    /**
+    * Define confirmarsenha
+    * @param confirmarsenha confirmarsenha
+    * @generated
+    */
+    public colaborador setConfirmarsenha(java.lang.String confirmarsenha) {
+        this.confirmarsenha = confirmarsenha;
+        return this;
+    }
+    /**
+    * Obtém cpf
+    * return cpf
+    * @generated
+    */
+    public java.lang.String getCpf() {
+        return this.cpf;
+    }
+
+    /**
+    * Define cpf
+    * @param cpf cpf
+    * @generated
+    */
+    public colaborador setCpf(java.lang.String cpf) {
+        this.cpf = cpf;
+        return this;
+    }
+    /**
+    * Obtém centro_custo
+    * return centro_custo
+    * @generated
+    */
+    public java.lang.String getCentro_custo() {
+        return this.centro_custo;
+    }
+
+    /**
+    * Define centro_custo
+    * @param centro_custo centro_custo
+    * @generated
+    */
+    public colaborador setCentro_custo(java.lang.String centro_custo) {
+        this.centro_custo = centro_custo;
+        return this;
+    }
+    /**
+    * Obtém linhaNegocio
+    * return linhaNegocio
+    * @generated
+    */
+    public java.lang.String getLinhaNegocio() {
+        return this.linhaNegocio;
+    }
+
+    /**
+    * Define linhaNegocio
+    * @param linhaNegocio linhaNegocio
+    * @generated
+    */
+    public colaborador setLinhaNegocio(java.lang.String linhaNegocio) {
+        this.linhaNegocio = linhaNegocio;
         return this;
     }
 

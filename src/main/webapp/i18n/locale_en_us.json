@@ -237,5 +237,8 @@
   "Matricula": "Enrollment",
   "ColaboradorCadastrado": "Registered Collaborator",
   "LinhaNegocioCusto": "Line_Business_Cost",
-  "CentroCusto": "center_cost"
+  "CentroCusto": "center_cost",
+  "Confirmarsenha": "Confirm Password",
+  "Cpf": "CPF",
+  "LinhaNegocio": "Business Line"
 }

@@ -238,5 +238,8 @@
   "Matricula": "Matricula",
   "ColaboradorCadastrado": "ColaboradorCadastrado",
   "LinhaNegocioCusto": "Linha_Negócio_Custo",
-  "CentroCusto": "centro_custo"
+  "CentroCusto": "centro_custo",
+  "Confirmarsenha": "confirmarSenha",
+  "Cpf": "cpf",
+  "LinhaNegocio": "LinhaNegocio"
 }
